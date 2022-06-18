@@ -142,3 +142,8 @@ body {
       width: 280px;
     }
   }
+  @media screen and (max-width: 1199px) {
+    .exercise-video:not(:first-of-type) {
+      margin-top: 2.3rem !important;
+    }
+  }
